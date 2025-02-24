@@ -1,0 +1,8 @@
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.csproj.AssemblyReference.cache
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.GeneratedMSBuildEditorConfig.editorconfig
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.AssemblyInfoInputs.cache
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.AssemblyInfo.cs
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.csproj.CoreCompileInputs.cache
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.MvcApplicationPartsAssemblyInfo.cs
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.MvcApplicationPartsAssemblyInfo.cache
+E:\Other\Bby\SOC Assignment\SPCStockService\obj\Debug\net8.0\SPCStockService.sourcelink.json

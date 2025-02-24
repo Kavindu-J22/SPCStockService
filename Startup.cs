@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using SPCStockService.Data;
 using Microsoft.EntityFrameworkCore;
 
+using SPCStockService.Services;
+
 namespace SPCStockService
 {
     public class Startup
@@ -22,11 +24,15 @@ namespace SPCStockService
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            // Register services
             services.AddScoped<ISupplierService, SupplierService>();
             services.AddScoped<IDrugService, DrugService>();
+            services.AddScoped<IWarehouseService, WarehouseService>();
+            services.AddScoped<IOrderService, OrderService>();
 
             services.AddControllers();
         }
+
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
